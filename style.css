@@ -1,0 +1,175 @@
+h1 {font-family:Arial;
+	text-align: center;
+	color: #4682b4;
+}
+
+h3 {font-family:Arial;
+	text-align: center;
+	color: white;
+}
+
+h1 + p {text-align: center;
+}
+
+header + img {height:150px;
+	width:100%;
+}
+
+img {height: 250px;
+	width: 250px;
+	margin: auto;
+}
+
+img.img_1 {float:left;
+		margin: 0px 50px 20px 20px;
+		height: 300px;
+		width: 50%;}
+		
+img.img2 {
+	height:300px;
+	width:300px;
+}
+
+img.img3 {text-align:center;
+			height:200px;
+			width:90%;
+			margin:auto;
+			}
+			
+/* CSS Gallery Tutorial by Bro Code was used to create the styling and html for the catalogue and testimonial sections. Link: https://www.youtube.com/watch?v=uu0lOX6Ot3s*/		
+.gallery {
+	display:inline-block;
+	border: 1px solid #2e5576;
+	margin: 10px;
+	background-color: #2e5576;
+	text-align: center;
+	padding: 10px;
+	width: 350px;
+	
+
+	
+}
+
+.gallery .description {
+	font-family:Arial;
+	padding: 10px;
+	text-align: center;
+}
+
+.gallery:hover {
+	background-color: #1a1f24;
+}
+	
+div.container {
+	background-color:#060a0d;
+	padding: 0px 0px 250px 0px;
+	margin: 0px;
+	
+}
+
+div.container1 {
+	  padding:10px;
+	  background-color:#235576;
+  }
+
+form {
+	background-color: #33353a;
+	color:white;
+	margin:0px;
+	padding:20px;
+	text-align:center;
+	}
+	
+body {width:100%;
+	margin: auto;
+	background-color:#060a0d;
+	padding: 0;
+	font-family: Arial;
+	font-size: 16px;
+	color: white;
+}
+
+ul.topnav {
+	display: flex;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	background-color:#2e5576;
+}
+
+ul.topnav li a{
+	font-family: Arial;
+	color: #060a0d;
+	text-decoration: none;
+	padding: 15px 7px;
+	text-align: center;
+	display: block;
+	width:100%;
+}
+
+ul.topnav li a:hover , ul.footnav li a:hover{ 
+	background-color: #a47f6f;
+} 
+
+
+footer {padding:10px;
+		background-color:#2e5576;
+		border:none;
+}
+
+p.wordmark {font-family:Arial;
+			color: #4682b4;
+			font-size: 30px;
+}
+
+footer  p {
+	text-align: left;
+	color: black;
+	padding: 3px 7px;
+}
+		
+	
+ul.footnav{
+	display: flex;
+	list-style-type: none;
+	margin: auto;
+	padding: 0px;
+}
+
+ul.footnav li a{
+	font-family: Arial;
+	color: #060a0d;
+	text-decoration: none;
+	padding: 15px 7px;
+	text-align: left;
+	display: block;
+	width:100%;
+}
+
+
+
+fieldset {border:5px;
+			padding:20px;
+			text-align:center;
+			
+}
+
+legend {font-size: 20px;
+		padding: 10px;
+		margin: 10px;
+}
+
+footer {
+	width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 8px;
+}
+
+
+
+/* Tutorial used to design "topnav" navigation bar, How to create a CSS navigation bar in 6 minutes by Code Bro */
+/* A styling tutorial from W3Schools was used to help style the navbar */
+
+
+
